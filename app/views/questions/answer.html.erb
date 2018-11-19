@@ -1,0 +1,14 @@
+
+<div class="container">
+  <blockquote class="blockquote border border-dark rounded p-3">
+    <h1 class="mb-0"><%= @question %></h1>
+    <footer class="blockquote-footer">You</footer>
+  </blockquote>
+
+  <blockquote class="blockquote border border-dark rounded p-3">
+    <h1><%= @answer %></h1>
+    <footer class="blockquote-footer">Your Coach</footer>
+  </blockquote>
+</div>
+
+<%= link_to "Ask a new question", "/ask" %>
